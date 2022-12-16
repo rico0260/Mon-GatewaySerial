@@ -55,6 +55,10 @@
 //#define MY_RF24_CHANNEL 86
 #define MY_RF24_CHANNEL 81
 
+#define MY_RX_MESSAGE_BUFFER_FEATURE //for MY_RF24_IRQ_PIN
+//Define this to use the IRQ pin of the RF24 module
+#define MY_RF24_IRQ_PIN (2)
+
 // Enable serial gateway
 #define MY_GATEWAY_SERIAL
 
