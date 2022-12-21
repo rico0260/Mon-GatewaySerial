@@ -53,7 +53,6 @@
 
 //MY_RF24_CHANNEL par defaut 76
 //#define MY_RF24_CHANNEL 86
-#define MY_RF24_CHANNEL 81
 
 #define MY_RX_MESSAGE_BUFFER_FEATURE //for MY_RF24_IRQ_PIN
 //Define this to use the IRQ pin of the RF24 module
@@ -91,6 +90,8 @@
 #define MY_DEFAULT_ERR_LED_PIN 4  // Error led pin
 #define MY_DEFAULT_RX_LED_PIN  6  // Receive led pin
 #define MY_DEFAULT_TX_LED_PIN  5  // the PCB, on board LED
+
+#include <perso.h>
 
 #include <MySensors.h>
 
